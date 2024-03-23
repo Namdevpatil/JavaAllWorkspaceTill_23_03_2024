@@ -1,0 +1,42 @@
+Exception Handling: The process of handling exceptions in java program, to maintain the 
+==================  normal flow of java program execution.
+
+
+=> In java Throwable is super class to the all Errors and Exceptions
+
+
+Throwable:
+   - Error: the errors are irrecoverable/not able to catch.
+   - Exception: the exceptions are able recover/able to catch.
+   
+=> Types of Exceptions in Java,
+			- Predefined exceptions:
+					- Checked Exceptions: Exception and all its sub-classes(except RuntimeException and all its sub-classes) are called checked exceptions.
+					- Unchecked Exceptions: RuntimeException and all its sub-classes are called unchecked exceptions.
+					
+			- User defined exceptions:
+
+To implement exception handling in Java, we use following blocks and keywords:
+
+blocks:
+
+1. try: problematic part statements we have place here.
+2. catch: handler part statements we have place here.
+3. finally: cleanup/resource release or compulsory statements need to executed, we have to place here.
+
+Exception Handling Scenarios:
+
+*1. try-catch
+2. try-catch-catch
+*3. try-catch-finally
+4. try-finally
+5. nested try-catch
+
+keywords:
+ 
+1. throws: we use throws keyword to declare the exception classes with method signature/head part.
+2. throw: to define/create exception objects in method body, we use throw keyword.
+
+User defined exceptions: the exceptions which are created based predefined exceptions, for our business need.
+=======================
+

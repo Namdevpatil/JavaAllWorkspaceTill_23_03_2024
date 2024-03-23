@@ -1,0 +1,4 @@
+Type-1 Driver: Bridge Driver (JDBC-ODBC bridge)
+Type-2 Driver: A party java and partly native code driver (Native-API partly java driver)
+Type-3 Driver	Referes to pure java driver that uses a middleware driver to connect to a database (pure java driver for database middleware)
+Type-4 Driver	Referes to a pure java driver (pure), which is directly connected to a database
